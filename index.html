@@ -1,19 +1,174 @@
 <!doctype html>
-
 <html lang="en">
+
+<!-- Header -->
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/index.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Space+Mono&display=swap" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<![endif]-->
 
-  <title>My Resume</title>
-
-  <link rel="stylesheet" href="css/index.css">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+<title>Ryan Sizemore | Full Stack Developer</title>
 </head>
+  
 
 <body>
-  <h1>My Resume</h1>
+<div class= "container">
+
+<!-- Navigation Section -->
+<nav class="nav">
+    <a href="#" class="nav__link active">Home</a>
+    <a href="#" class="nav__link">About</a>
+    <a href="#" class="nav__link">Portfolio</a>
+    <a href="#" class="nav__link">Contact</a>
+  </nav>
+
+<!-- Intro Section -->
+<header class= "header">
+<div class = "header-img">
+<img src = "download.png" alt = "Ryan Head Shot">
+</div>
+
+<div class="intro">
+<h1 class="primary">
+<span class="header-top">Hello,</span>
+<span class="header-bottom">I'm Ryan Sizemore.</span>
+</h1>
+
+<p class="header-lead"> A full stack web developer in training from London, Kentucky. I'm looking to become a front-end web developer for a fortune 500 company. </p>
+<button class="button"><i class="fas fa-envelope"></i>Hire Me</button>
+</div>
+
+</header>
+
+<!-- Skills Section-->
+<div class="sec-header">
+<section class="skills">
+<h2 class="heading-sec">Skills</h2>
+<div class="skills-container">
+  <div class="label">Languages:</div>
+  <div class="contents">HTML, CSS, JavaScript, Python</div>
+</div>
+
+<div class="skills-container">
+  <div class="label">Frameworks:</div>
+  <div class="contents">React
+</div>
+
+<div class="skills-container">
+    <div class="label">Also:</div>
+    <div class="contents">GIT, LESS, ThinkScript
+  </div>
+
+<button class=button><i class="fas fa-code"></i> Portfolio</button>
+</section>
+
+<!-- Work History Section -->
+<section class="experience">
+<div class="card">
+  <h3 class="heading-teritary">Work Experience</h3>
+  <div class="card-item">
+  <div class="card-item--left">
+    <h4>TickerTocker</h4>
+    <p class="role">Educator</p>
+  </div>
+  <div class="card-item--right">
+      <p class="time">Dates</p>
+      <p class="city">New York NY</p>
+    </div>
+  </div>
+  <div class="card-item">
+    <div class="card-item--left">
+      <h4>Landshark Capital</h4>
+      <p class="role">Derivatives Trader</p>
+    </div>
+    <div class="card-item--right">
+      <p class="time">Dates</p>
+      <p class="city">Scottsdale, AZ</p>
+    </div>
+  </div>
+  <div class="card-item">
+    <div class="card-item--left">
+      <h4>Steel Sports</h4>
+      <p class="role">Sports Director</p>
+    </div>
+    <div class="card-item--right">
+      <p class="time">Dates</p>
+      <p class="city">Los Angeles, CA</p>
+    </div>
+  </div>
+  <button class="button">More<i class="fas fa-angle-right"></i></button>
+  </section>
+
+<!-- Education Section -->
+<section class="education">
+<div class="card">
+  <h3 class="heading-tertiary">Education</h3>
+  <div class="card-item">
+    <div class="card-item--left">
+      <h4>Lambda School</h4>
+      <p class="role">Full Stack Web Development</p>
+    </div>
+    <div class="card-item--right">
+      <p class="time">December 2019 - Current</p>
+      <p class="city">Online</p>
+    </div>
+  </div>
+  <div class="card-item">
+    <div class="card-item--left">
+      <h4>Eastern Kentucky University</h4>
+      <p class="role">BA in Political Science</p>
+    </div>
+    <div class="card-item--right">
+      <p class="time">August 2004 - May 2007</p>
+      <p class="city">Richmond, KY</p>
+    </div>
+  </div>
+  <div class="card-item">
+    <div class="card-item--left">
+      <h4>Berea Community High School</h4>
+      <p class="role">Diploma</p>
+    </div>
+    <div class="card-item--right">
+      <p class="time">August 1998 - May 2002</p>
+      <p class="city">Berea, KY</p>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact">
+  <h3 class="heading-teritary">Contact</h3>
+  <div class="contact-body">
+  <div class="address">
+    <p>1400 Flat Lick Road</p>
+    <p>London, KY 40744</p>
+  </div>
+  <div class="info">
+    <p>(606)657-1545</p>
+    <a href="mailto:sizemore.ryan@gmail.com">Email Me</a>
+  </div>
+  </div>
+  
+  <div class="contact-footer">
+  <a href="#"><i class="fab fa-linkedin"></i></a>
+  <a href="#"><i class="fab fa-github"></i></a>
+  <a href="#"><i class="fab fa-twitter"></i></a>
+  </div>
+  </section>
+
+<!-- Footer -->
+<footer class="footer">
+&copy; 2019 Ryan Sizemore
+</footer>
+</div>
+
 </body>
+
 </html>
